@@ -62,6 +62,12 @@ In this project, we developed a robust fraud detection model to identify fraudul
 | Gradient Boosting  | 414.15            | 0.96    | 0.77              | 0.10      | 0.91   | 0.18     |
 | XGBoost            | 1.99              | 0.98    | 0.84              | 0.69      | 0.88   | 0.77     |
 
+### Final Model: Random Forest
+Random Forest was chosen as the final model due to its superior performance across multiple evaluation metrics. It achieved the highest balance of precision and recall, with an excellent AUC of 0.98, indicating its strong ability to distinguish between fraudulent and non-fraudulent transactions. Additionally, the Random Forest model had the best F1 score, reflecting its effectiveness in correctly identifying both fraudulent transactions (high recall) and minimizing false positives (high precision).
+#### Feature Importance
+![Feature Importance](Graphics/featureImportance.png)
+
+#### Confusion Matrix
 ![Random Forest Confusion Matrix](Graphics/confusionMatrix.png)
 *Confusion Matrix: The Random Forest model effectively minimizes false positives and false negatives while capturing many fraudulent transactions.*
 

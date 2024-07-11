@@ -18,7 +18,7 @@ This project aims to develop a robust fraud detection model to identify fraudule
   - Identified key patterns and insights that differentiate fraudulent transactions from non-fraudulent ones.
 
 - **Model Selection and Hyperparameter Tuning**:
-  - Evaluated multiple models: Logistic Regression, Random Forest, Gradient Boosting, and XGBoost.
+  - Evaluated Logistic Regression, Random Forest, Gradient Boosting, and XGBoost models.
   - Used GridSearchCV for hyperparameter tuning, optimizing for the ROC AUC score.
 
 - **Model Performance Evaluation**:
@@ -34,12 +34,12 @@ This project aims to develop a robust fraud detection model to identify fraudule
 - **Customer Confidence**: Provides customers with a reliable system that minimizes interruptions to legitimate transactions.
 - **Continuous Improvement**: Emphasizes the need for ongoing monitoring and enhancement to adapt to new fraud patterns.
 
-## Visual Highlights
+## Final Model: Random Forest
 
 ### Feature Importance
 ![Feature Importance](Graphics/featureImportance.png)
 
-### ROC Curves
+### ROC Curves (all tuned models)
 ![ROC Curves](Graphics/roc.png)
 
 ### Confusion Matrix
