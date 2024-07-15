@@ -36,8 +36,8 @@ This project aims to develop a robust fraud detection model to identify fraudule
 
 ## Final Model: XGBoost
 
-### ROC Curves (all tuned models)
-![ROC Curves](Graphics/roc.png)
+### Precision-Recall Curves (tuned models)
+![ROC Curves](Graphics/precisionRecall.png)
 
 ### Confusion Matrix
 ![Confusion Matrix](Graphics/confusionMatrix.png)
