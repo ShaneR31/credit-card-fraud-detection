@@ -18,26 +18,23 @@ This project aims to develop a robust fraud detection model to identify fraudule
   - Identified key patterns and insights that differentiate fraudulent transactions from non-fraudulent ones.
 
 - **Model Selection and Hyperparameter Tuning**:
-  - Evaluated Logistic Regression, Random Forest, Gradient Boosting, and XGBoost models.
-  - Used GridSearchCV for hyperparameter tuning, optimizing for the ROC AUC score.
+  - Evaluated basic Logistic Regression, Random Forest, Gradient Boosting, and XGBoost models.
+  - Used GridSearchCV for hyperparameter tuning with Random Forest and XGBoost, optimizing for average precision.
 
 - **Model Performance Evaluation**:
-  - Compared models based on metrics like ROC AUC, precision-recall curves, and F1-score.
+  - Compared models based on metrics like precision-recall AUC, and F1-score.
   - Visualized performance using ROC and precision-recall curves.
 
 - **Final Model Selection**:
-  - Selected **Random Forest** as the final model due to its superior balance of precision and recall, achieving an excellent AUC of 0.98 and the best F1 score among the models.
+  - Selected **XGBoost** as the final model due to its superior balance of precision and recall, achieving an excellent Precision-Recall AUC of 0.89 and the best F1 score among tuned models.
 
 ## Practical Implications
 
-- **High Accuracy and Reliability**: The Random Forest model is highly accurate and reliable for detecting fraudulent transactions. This ensures that genuine transactions are processed smoothly while effectively catching most fraud cases.
+- **High Accuracy and Reliability**: The XGBoost classifier is highly accurate and reliable for detecting fraudulent transactions. This ensures that genuine transactions are processed smoothly while effectively catching most fraud cases.
 - **Customer Confidence**: Provides customers with a reliable system that minimizes interruptions to legitimate transactions.
 - **Continuous Improvement**: Emphasizes the need for ongoing monitoring and enhancement to adapt to new fraud patterns.
 
-## Final Model: Random Forest
-
-### Feature Importance
-![Feature Importance](Graphics/featureImportance.png)
+## Final Model: XGBoost
 
 ### ROC Curves (all tuned models)
 ![ROC Curves](Graphics/roc.png)
