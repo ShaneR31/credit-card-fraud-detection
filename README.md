@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-![](Graphics/atm.jpg)
+![](Graphics/atm.png)
 
 ## Project Overview
 
